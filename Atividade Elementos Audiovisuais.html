@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Img, Áudio e Video</title>
+</head>
+<body>
+    <h1>IMAGEM</h1>
+    <img src="midia/images.jpg" alt="Tiger Sport 660cc amarela"
+    width="320" height="320">
+    <figcaption> Moto qualquer do Google.</figcaption>
+    </figure>
+
+    <h1>ÁUDIO</h1>
+    <h2 id="musica">Uma música que gosto</h2>
+    <p>Escolhi esta faixa instrumental para acompanhar meus estudos.</p>
+    <audio  preload="none" src="midia/musica.mp3">
+    </audio>
+    <p><a href="midia/musica.mp3">Abrir o arquivo de áudio</a></p>
+
+    <h1>VÍDEO</h1>
+    <h2 id="video">Meu projeto em vídeo</h2>
+    <video controls preload="metadata" width="640"
+    poster="midia/capavideo.jpg" playsinline>
+    <source src="midia/video.mp4" type="video/mp4">
+    Seu navegador não oferece suporte ao elemento vídeo.
+    </video>
+    <p><a href="midia/video.mp4">Abrir o vídeo</a></p>
+
+    <h1>VÍDEO COM LEGENDA</h1>
+    <video controls width="640">
+        <source src="midia/237643.mp4" type="video/mp4">
+        <track src="midia/legenda.vtt" kind="captions"
+        srclang="pt-br" label="Português" default>
+        <track src="midia/legenda2.vtt" kind="captions"
+        srclang="en" label="Inglês" default>
+    </video>
+    <iframe width="1059" height="595" src="https://www.youtube.com/embed/MVe5LL8bRhU" title="NEYMAR &quot;SALVA&quot; O SANTOS COM DOIS GOLS, PAQUETÁ MARCA E JORGINHO É EXPULSO | SANTOS 2X2 FLAMENGO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
